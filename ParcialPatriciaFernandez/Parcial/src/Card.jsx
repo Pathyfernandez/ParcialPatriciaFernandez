@@ -1,13 +1,22 @@
 import React from "react";
-import "./Card.css"; 
+import PropTypes from "prop-types";
 
-const Card = () => {
+const Card = ({ data }) => {
   return (
     <div className="card">
-      <h2>¡Bienvenido a mi tarjeta!</h2>
-      <p>Esta es mi primera tarjeta.</p>
+      <h2>¡Hola, {data.nombre}!</h2>
+      <p>Ya sabemos que tu plato favorito es {data.platoFavorito}.</p>
     </div>
   );
 };
 
+Card.propTypes = {
+  data: PropTypes.shape({
+    nombre: PropTypes.string,
+    platoFavorito: PropTypes.string,
+  }).isRequired,
+};
+
 export default Card;
+
+

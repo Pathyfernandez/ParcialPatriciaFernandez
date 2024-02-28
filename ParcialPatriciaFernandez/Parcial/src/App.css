@@ -7,19 +7,20 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #ffe5ec; 
 }
 
 .App {
   text-align: center;
   font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8;
+  background-color: #adf7b6; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #333;
+  color: #FFFFFF;
 }
 
 form {
@@ -39,8 +40,8 @@ input {
 }
 
 button {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #ffc09f; 
+  color: #333;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -48,24 +49,25 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #d3c4e8;
 }
 
 .card {
-  border: 2px solid #333;
+  border: 2px solid #FFFFFF;
   padding: 16px;
   margin: 16px;
   border-radius: 8px;
-  background-color: #f0f0f0;
+  background-color: #eac4d5;
 }
 
 .card h2 {
-  color: #333;
+  color: #FFFFFF;
 }
 
 .card p {
-  color: #555;
+  color: #FFFFFF;
 }
 
-
-
+.error {
+  color: #ff0000;
+}
